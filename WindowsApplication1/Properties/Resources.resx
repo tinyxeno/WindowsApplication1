@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AFX_IDP_ASK_TO_EXIT" xml:space="preserve">
+    <value>終了します。よろしいですか?</value>
+  </data>
+  <data name="AFX_IDP_ASK_TO_SAVE" xml:space="preserve">
+    <value>%1 への変更を保存しますか?</value>
+  </data>
+  <data name="AFX_IDS_ALLFILTER" xml:space="preserve">
+    <value>すべてのファイル (*.*)</value>
+  </data>
+  <data name="AFX_IDS_IDLEMESSAGE" xml:space="preserve">
+    <value>準備完了</value>
+  </data>
+  <data name="AFX_IDS_OBJ_TITLE_INPLACE" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="AFX_IDS_ONEPAGE" xml:space="preserve">
+    <value>1 ページ(&amp;O)</value>
+  </data>
+  <data name="AFX_IDS_PREVIEWPAGEDESC" xml:space="preserve">
+    <value>ページ %u\nページ %u-%u\n</value>
+  </data>
+  <data name="AFX_IDS_PRINTPAGENUM" xml:space="preserve">
+    <value>ページ %u</value>
+  </data>
+  <data name="AFX_IDS_TWOPAGE" xml:space="preserve">
+    <value>2 ページ(&amp;T)</value>
+  </data>
+  <data name="AFX_IDS_UNTITLED" xml:space="preserve">
+    <value>無題</value>
+  </data>
+  <data name="ID_APP_ABOUT" xml:space="preserve">
+    <value>プログラム情報、バージョン、著作権を表示します。\nバージョン情報\nﾍﾙﾌﾟ\n著作権情報を表示しました</value>
+  </data>
+  <data name="ID_APP_EXIT" xml:space="preserve">
+    <value>アプリケーションを終了し、ドキュメントの保存を指示\n終了\n終了</value>
+  </data>
+  <data name="ID_EDIT_CLEAR" xml:space="preserve">
+    <value>選択範囲を消去\n消去\n消去\n消去しました</value>
+  </data>
+  <data name="ID_EDIT_CLEAR_ALL" xml:space="preserve">
+    <value>すべて消去\nすべて消去\n全消\nすべて消去しました</value>
+  </data>
+  <data name="ID_EDIT_COPY" xml:space="preserve">
+    <value>選択範囲をコピーしてクリップボードに保存\nコピー\nｺﾋﾟｰ\n選択範囲をクリップボードへコピーしました</value>
+  </data>
+  <data name="ID_EDIT_CUT" xml:space="preserve">
+    <value>選択範囲を切り取ってクリップボードに保存\n切り取り\n切取\n選択範囲をクリップボードへ移動しました</value>
+  </data>
+  <data name="ID_EDIT_FIND" xml:space="preserve">
+    <value>指定した文字列の検索\n検索\n検索\n検索文字列を指定してください</value>
+  </data>
+  <data name="ID_EDIT_PASTE" xml:space="preserve">
+    <value>クリップボードの内容を貼り付け\n貼り付け\n貼付\nクリップボードから貼り付けました</value>
+  </data>
+  <data name="ID_EDIT_REDO" xml:space="preserve">
+    <value>取り消した操作をやり直す\nやり直す\n直す\n変更を取り消しました</value>
+  </data>
+  <data name="ID_EDIT_REPEAT" xml:space="preserve">
+    <value>直前に行った動作を繰り返す\n繰り返し\n繰返\n次を検索しました</value>
+  </data>
+  <data name="ID_EDIT_REPLACE" xml:space="preserve">
+    <value>指定した文字列を他の文字列で置換\n置換\n置換\n置換文字列を指定してください</value>
+  </data>
+  <data name="ID_EDIT_SELECT_ALL" xml:space="preserve">
+    <value>ファイル内のすべてを選択\nすべて選択\n全選\nすべて選択しました</value>
+  </data>
+  <data name="ID_EDIT_UNDO" xml:space="preserve">
+    <value>直前に行った動作を元に戻す\n元に戻す\n戻す\n元に戻しました</value>
+  </data>
+  <data name="ID_FILE_CLOSE" xml:space="preserve">
+    <value>作業中のドキュメントを閉じる\n閉じる\n閉じ\nドキュメントを閉じました</value>
+  </data>
+  <data name="ID_FILE_NEW" xml:space="preserve">
+    <value>新しいドキュメントを作成\n新規作成\n新規\n新規作成しました</value>
+  </data>
+  <data name="ID_FILE_OPEN" xml:space="preserve">
+    <value>既存のドキュメントを開く\n開く\n開く\nドキュメントを開きました</value>
+  </data>
+  <data name="ID_FILE_PAGE_SETUP" xml:space="preserve">
+    <value>印刷オプションの変更\nページ レイアウトの設定\n頁設\nページ レイアウトを設定しました</value>
+  </data>
+  <data name="ID_FILE_PRINT" xml:space="preserve">
+    <value>作業中のドキュメントを印刷\n印刷\n印刷\n印刷しました</value>
+  </data>
+  <data name="ID_FILE_PRINT_DIRECT" xml:space="preserve">
+    <value>作業中のドキュメントを現在のオプションで印刷\nクイック印刷\n印刷\n印刷しました</value>
+  </data>
+  <data name="ID_FILE_PRINT_PREVIEW" xml:space="preserve">
+    <value>印刷イメージを表示\n印刷プレビュー\nプレ\n印刷プレビューしました</value>
+  </data>
+  <data name="ID_FILE_PRINT_SETUP" xml:space="preserve">
+    <value>プリンターおよび印刷オプションの変更\n印刷設定\n設定\n印刷設定しました</value>
+  </data>
+  <data name="ID_FILE_SAVE" xml:space="preserve">
+    <value>作業中のドキュメントを上書きして保存\n保存\n保存\nドキュメントを保存しました</value>
+  </data>
+  <data name="ID_FILE_SAVE_AS" xml:space="preserve">
+    <value>作業中のドキュメントを新しい名前で保存\n名前をつけて保存\n名付</value>
+  </data>
+  <data name="ID_INDICATOR_CAPS" xml:space="preserve">
+    <value>CAP</value>
+  </data>
+  <data name="ID_INDICATOR_COL" xml:space="preserve">
+    <value>列:{0,5}</value>
+  </data>
+  <data name="ID_INDICATOR_DATE" xml:space="preserve">
+    <value>yyyy/MM/dd</value>
+  </data>
+  <data name="ID_INDICATOR_MODIFY" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="ID_INDICATOR_NUM" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="ID_INDICATOR_ROW" xml:space="preserve">
+    <value>行:{0,5}</value>
+  </data>
+  <data name="ID_INDICATOR_SCRL" xml:space="preserve">
+    <value>SCRL</value>
+  </data>
+  <data name="ID_INDICATOR_TIME" xml:space="preserve">
+    <value>HH mm\nHH:mm</value>
+  </data>
+  <data name="ID_PREVIEW_CLOSE" xml:space="preserve">
+    <value>印刷プレビューを閉じる\n閉じる\n閉じる(&amp;C)</value>
+  </data>
+  <data name="ID_PREVIEW_NEXT" xml:space="preserve">
+    <value>次のページ\n次のページ\n次へ(&amp;N)</value>
+  </data>
+  <data name="ID_PREVIEW_ONEPAGE" xml:space="preserve">
+    <value>1 ページ表示/2 ページ表示の切り替え\n切り替え\n2ページ(&amp;T)</value>
+  </data>
+  <data name="ID_PREVIEW_PREV" xml:space="preserve">
+    <value>前のページ\n前のページ\n前へ(&amp;N)</value>
+  </data>
+  <data name="ID_PREVIEW_PRINT" xml:space="preserve">
+    <value>文書の印刷\n印刷\n印刷(&amp;P)</value>
+  </data>
+  <data name="ID_PREVIEW_SETUP" xml:space="preserve">
+    <value>設定\n設定\n設定(&amp;T)</value>
+  </data>
+  <data name="ID_PREVIEW_ZOOMIN" xml:space="preserve">
+    <value>拡大\n拡大\n拡大(&amp;I)</value>
+  </data>
+  <data name="ID_PREVIEW_ZOOMOUT" xml:space="preserve">
+    <value>縮小\n縮小\n縮小(&amp;R)</value>
+  </data>
+  <data name="ID_VIEW_DETAILS" xml:space="preserve">
+    <value>ウィンドウ内の各オブジェクトの詳細情報を表示します。\n詳細\n詳細\n詳細表示へ変更しました</value>
+  </data>
+  <data name="ID_VIEW_LARGEICON" xml:space="preserve">
+    <value>オブジェクトを大きいアイコンで表示します。\n大きいアイコン\n大\n大きいアイコン表示へ変更しました</value>
+  </data>
+  <data name="ID_VIEW_LIST" xml:space="preserve">
+    <value>オブジェクトを一覧表示します。\n一覧\n一覧\n一覧表示へ変更しました</value>
+  </data>
+  <data name="ID_VIEW_SMALLICON" xml:space="preserve">
+    <value>オブジェクトを小さいアイコンで表示します。\n小さいアイコン\n小\n小さいアイコン表示へ変更しました</value>
+  </data>
+  <data name="ID_VIEW_STATUS_BAR" xml:space="preserve">
+    <value>ステータス バーの表示/非表示\nステータス バーの表示切り替え\nステータス バーの表示を変更しました</value>
+  </data>
+  <data name="ID_VIEW_TOOLBAR" xml:space="preserve">
+    <value>ツール バーの表示/非表示\nステータス バーの表示切り替え\nツール バーの表示を変更しました</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IDB_APP_ABOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_APP_ABOUT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_APP_EXIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_APP_EXIT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_EDIT_COPY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_EDIT_COPY.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_EDIT_CUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_EDIT_CUT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_EDIT_PASTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_EDIT_PASTE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_FILE_NEW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_FILE_NEW.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_FILE_OPEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_FILE_OPEN.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_FILE_PRINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_FILE_PRINT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_FILE_SAVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_FILE_SAVE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_CLOSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_CLOSE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_NEXT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_NEXT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_ONEPAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_ONEPAGE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_PREV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_PREV.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_PRINT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_PRINT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_SETUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_SETUP.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_ZOOMIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_ZOOMIN.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_PREVIEW_ZOOMOUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_PREVIEW_ZOOMOUT.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_VIEW_DETAILS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_VIEW_DETAILS.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_VIEW_LARGEICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_VIEW_LARGEICON.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_VIEW_LIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_VIEW_LIST.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_VIEW_SMALLICON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_VIEW_SMALLICON.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDB_VIEW_STRIPED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IDB_VIEW_STRIPED.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDM_APP_ABOUT" xml:space="preserve">
+    <value>バージョン情報(&amp;A)...</value>
+  </data>
+  <data name="IDM_APP_EXIT" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="IDM_EDIT" xml:space="preserve">
+    <value>編集(&amp;E)</value>
+  </data>
+  <data name="IDM_EDIT_CLEAR" xml:space="preserve">
+    <value>削除(&amp;D)...</value>
+  </data>
+  <data name="IDM_EDIT_COPY" xml:space="preserve">
+    <value>コピー(&amp;C)</value>
+  </data>
+  <data name="IDM_EDIT_CUT" xml:space="preserve">
+    <value>切り取り(&amp;T)</value>
+  </data>
+  <data name="IDM_EDIT_FIND" xml:space="preserve">
+    <value>検索(&amp;F)...</value>
+  </data>
+  <data name="IDM_EDIT_PASTE" xml:space="preserve">
+    <value>貼り付け(&amp;P)</value>
+  </data>
+  <data name="IDM_EDIT_REPEAT" xml:space="preserve">
+    <value>次へ(&amp;N)</value>
+  </data>
+  <data name="IDM_EDIT_REPLACE" xml:space="preserve">
+    <value>置換(&amp;N)...</value>
+  </data>
+  <data name="IDM_EDIT_SELECT_ALL" xml:space="preserve">
+    <value>すべて選択(&amp;A)</value>
+  </data>
+  <data name="IDM_EDIT_UNDO" xml:space="preserve">
+    <value>元に戻す(&amp;U)</value>
+  </data>
+  <data name="IDM_FILE" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="IDM_FILE_NEW" xml:space="preserve">
+    <value>新規作成(&amp;N)</value>
+  </data>
+  <data name="IDM_FILE_OPEN" xml:space="preserve">
+    <value>開く(&amp;O)...</value>
+  </data>
+  <data name="IDM_FILE_PAGE_SETUP" xml:space="preserve">
+    <value>ページ設定(&amp;T)...</value>
+  </data>
+  <data name="IDM_FILE_PRINT" xml:space="preserve">
+    <value>印刷(&amp;P)...</value>
+  </data>
+  <data name="IDM_FILE_PRINT_PREVIEW" xml:space="preserve">
+    <value>印刷プレビュー(&amp;V)...</value>
+  </data>
+  <data name="IDM_FILE_PRINT_SETUP" xml:space="preserve">
+    <value>印刷設定(&amp;T)...</value>
+  </data>
+  <data name="IDM_FILE_SAVE" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="IDM_FILE_SAVE_AS" xml:space="preserve">
+    <value>名前をつけて保存(&amp;A)...</value>
+  </data>
+  <data name="IDM_FILE_SEND_MAIL" xml:space="preserve">
+    <value>送信(&amp;D)...</value>
+  </data>
+  <data name="IDM_HELP" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="IDM_HELP_CONTENTS" xml:space="preserve">
+    <value>目次(&amp;C)...</value>
+  </data>
+  <data name="IDM_HELP_FINDER" xml:space="preserve">
+    <value>ヘルプ検索(&amp;S)...</value>
+  </data>
+  <data name="IDM_HELP_INDEX" xml:space="preserve">
+    <value>索引(&amp;I)...</value>
+  </data>
+  <data name="IDM_OLE_EDIT_PROPERTIES" xml:space="preserve">
+    <value>編集(&amp;M)</value>
+  </data>
+  <data name="IDM_OLE_INSERT_NEW" xml:space="preserve">
+    <value>挿入(&amp;I)...</value>
+  </data>
+  <data name="IDM_VIEW" xml:space="preserve">
+    <value>表示(&amp;V)</value>
+  </data>
+  <data name="IDM_VIEW_DETAILS" xml:space="preserve">
+    <value>詳細(&amp;D)</value>
+  </data>
+  <data name="IDM_VIEW_LARGEICON" xml:space="preserve">
+    <value>大きいアイコン(&amp;G)</value>
+  </data>
+  <data name="IDM_VIEW_LIST" xml:space="preserve">
+    <value>一覧(&amp;L)</value>
+  </data>
+  <data name="IDM_VIEW_SMALLICON" xml:space="preserve">
+    <value>小さいアイコン(&amp;M)</value>
+  </data>
+  <data name="IDM_VIEW_STATUS_BAR" xml:space="preserve">
+    <value>ステータス バー(&amp;S)</value>
+  </data>
+  <data name="IDM_VIEW_TOOLBAR" xml:space="preserve">
+    <value>ツール バー(&amp;T)</value>
+  </data>
+  <data name="IDP_AFXBARRES_TEXT_IS_REQUIRED" xml:space="preserve">
+    <value>テキストを入力してください</value>
+  </data>
+  <data name="IDS_AFXBARRES_ABORT" xml:space="preserve">
+    <value>中断</value>
+  </data>
+  <data name="IDS_AFXBARRES_CANCEL" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="IDS_CONNECTION_EXTENDED_PROPERTIES" xml:space="preserve">
+    <value>Excel 8.0;HDR=YES</value>
+  </data>
+  <data name="IDS_CONNECTION_STRING_32" xml:space="preserve">
+    <value>Microsoft.Jet.OLEDB.4.0</value>
+  </data>
+  <data name="IDS_CONNECTION_STRING_64" xml:space="preserve">
+    <value>Microsoft.ACE.OLEDB.12.0</value>
+  </data>
+  <data name="IDS_EDIT_MENU" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="IDS_HELP_FILENAME" xml:space="preserve">
+    <value>C:\Windows\Help\mui\0411\mmc.CHM</value>
+    <comment>仮</comment>
+  </data>
+  <data name="IDS_MESSAGE_TITLES" xml:space="preserve">
+    <value>(不明)\n重大\n確認\n警告\n情報</value>
+  </data>
+  <data name="IDS_SQL_SELECT" xml:space="preserve">
+    <value>select * from [Sheet1$]</value>
+  </data>
+</root>
