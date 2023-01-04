@@ -1,2 +1,2 @@
 # WindowsApplication1
-C#+Win32 ListView Excel Editor
+C# と Win32 混成プロジェクト による、 ListView を使ったテーブル編集エディターのモックアップ
